@@ -6,7 +6,6 @@ export const GET: APIRoute = async () => {
   })
 };
 
-
 export const POST: APIRoute = async ({ request }) => {
   const body = await request.json();
 
